@@ -44,6 +44,16 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategy\controller\ClientController.cs" />
+    <Compile Include="Strategy\controller\strategies\CalculeBonus.cs" />
+    <Compile Include="Strategy\controller\strategies\Facture.cs" />
+    <Compile Include="Strategy\controller\strategies\FactureOnline.cs" />
+    <Compile Include="Strategy\controller\strategies\VerifCoupons.cs" />
+    <Compile Include="Strategy\model\Bonus.cs" />
+    <Compile Include="Strategy\model\Client.cs" />
+    <Compile Include="Strategy\model\Panier.cs" />
+    <Compile Include="Strategy\model\Produit.cs" />
+    <Compile Include="Strategy\repository\ClientInterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
