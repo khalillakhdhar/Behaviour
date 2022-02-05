@@ -12,7 +12,10 @@ namespace Behaviour.Observer.controller
         public void notifierUsers(Message message)
         {
             List<User> users = message.usersGroupe.users;
-
+            foreach (var us in users)
+            {
+                Console.WriteLine("notification envoyé à " + us.UserName);
+            }
 
 
         }

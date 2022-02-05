@@ -7,7 +7,7 @@ using Behaviour.Observer.model;
 
 namespace Behaviour.Observer.repository
 {
-    interface MessageController
+    interface MessageInterface
     {
         void sendMessage(Message message);
         void notifierUsers(Message message);
